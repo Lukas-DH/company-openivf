@@ -12,27 +12,31 @@ export default function Services() {
           </Link>
           <div className={styles.grid}>
             <h2>Services </h2>{" "}
-            <p>
-              Services Digital Transformation: Our team of software developers
-              and business consultants can help your clinic or lab build custom
-              mobile or web application, and help you with your EMR and custom
-              API integrations. No need for big development teams and crazy
-              budgets. We use the most current technologies and keep things
-              simple. lets talk! Business consulting Our consultants can help
-              your business sell product, provide customer service, and build a
-              logistics choin in your market. Contacts us now to find out how we
-              can help you. Technical Service: Our technicians can help you
-              repair, install and maintain your lab technologies. We specialize
-              in time-lapse incubators and software.
-            </p>{" "}
+            <div>
+              <p>
+                <strong>Digital:</strong> Our team of software developers and
+                business consultants can help your clinic or lab build custom
+                mobile or web application, and help you with your EMR and custom
+                API integrations. No need for big development teams and crazy
+                budgets. We use the most current technologies and keep things
+                simple. lets talk!{" "}
+              </p>
+              <p>
+                {" "}
+                <strong>Business consulting:</strong>
+                Our consultants can help your business sell product, provide
+                customer service, and build a logistics chain in your market.
+                Contacts us now to find out how we can help you.
+              </p>
+              <p>
+                <strong>Technical Service: </strong>Our technicians can help you
+                repair, install and maintain your lab technologies. We
+                specialize in time-lapse incubators and software.
+              </p>
+            </div>{" "}
           </div>
         </div>
-        <div className={styles.footer}>
-          {" "}
-          <Link href="/">
-            <a>&larr; Open-IVF!</a>
-          </Link>
-        </div>
+        <div className={styles.footer}></div>
       </main>
     </div>
   );
