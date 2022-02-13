@@ -15,11 +15,13 @@ export default function Services() {
             <div>
               <p>
                 <strong>Digital:</strong> Our team of software developers and
-                business consultants can help your clinic or lab build custom
-                mobile or web application, and help you with your EMR and custom
-                API integrations. No need for big development teams and crazy
-                budgets. We use the most current technologies and keep things
-                simple. lets talk!{" "}
+                business consultants can help your lab build mobile or web
+                application. We can help you with your EMR and custom API
+                integrations. We use the most current technologies and keep
+                things simple.{" "}
+                <Link href="/contact">
+                  <a>&rarr; lets talk!</a>
+                </Link>{" "}
               </p>
               <p>
                 {" "}
@@ -32,6 +34,12 @@ export default function Services() {
                 <strong>Technical Service: </strong>Our technicians can help you
                 repair, install and maintain your lab technologies. We
                 specialize in time-lapse incubators and software.
+              </p>
+              <p>
+                {" "}
+                <Link href="/contact">
+                  <a>&rarr; lets talk!</a>
+                </Link>{" "}
               </p>
             </div>{" "}
           </div>
