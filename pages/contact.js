@@ -39,8 +39,8 @@ export async function getStaticProps(context) {
   };
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths(context) {
   return {
-    paths: {}, // will be passed to the page component as props
+    Paths: {}, // will be passed to the page component as props
   };
 }
