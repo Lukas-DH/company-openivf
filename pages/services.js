@@ -55,3 +55,9 @@ export async function getStaticProps(context) {
     props: {}, // will be passed to the page component as props
   };
 }
+
+export async function getStaticPaths() {
+  return {
+    paths: {}, // will be passed to the page component as props
+  };
+}

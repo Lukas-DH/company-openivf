@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Open-IVF</title>
         <meta name="description" content="company information" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main className={styles.main}>
@@ -53,7 +53,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by OPEN-IVF
         </a>
       </footer>
     </div>
