@@ -14,24 +14,22 @@ export default function Services() {
             <h2>Services </h2>{" "}
             <div>
               <p>
-                <strong>Digital:</strong> Our team of software developers and
-                business consultants can help your clinic or lab build custom
-                mobile or web application, and help you with your EMR and custom
-                API integrations. No need for big development teams and crazy
-                budgets. We use the most current technologies and keep things
-                simple. lets talk!{" "}
+                <strong>Digital:</strong> We can help your clinic or lab build
+                custom mobile or web applications, and help you with your EMR
+                and API integration. We use the most current technologies and
+                keep things simple. lets talk!{" "}
               </p>
               <p>
                 {" "}
                 <strong>Business consulting:</strong>
-                Our consultants can help your business sell product, provide
-                customer service, and build a logistics chain in your market.
-                Contacts us now to find out how we can help you.
+                We can help your business sell product, provide customer
+                service, and build a logistics chain in your market. Contacts us
+                now to find out how we can help you.
               </p>
               <p>
-                <strong>Technical Service: </strong>Our technicians can help you
-                repair, install and maintain your lab technologies. We
-                specialize in time-lapse incubators and software.
+                <strong>Technical Service: </strong>We can help you repair,
+                install and maintain your lab technologies. We specialize in
+                time-lapse incubators and software.
               </p>
             </div>{" "}
           </div>
