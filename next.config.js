@@ -6,8 +6,8 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
-      "/services": { page: "/services" },
-      "/contact": { page: "/contact" },
+      "/services": { page: "/services.html" },
+      "/contact": { page: "/contact.html" },
     };
   },
 };
