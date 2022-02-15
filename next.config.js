@@ -1,13 +1,16 @@
 module.exports = {
   reactStrictMode: true,
+};
+
+module.exports = {
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
   ) {
     return {
       "/": { page: "/" },
-      "/services.html": { page: "/services" },
-      "/contact.html": { page: "/contact" },
+      "/services": { page: "/services" },
+      "/contact": { page: "/contact" },
     };
   },
 };
