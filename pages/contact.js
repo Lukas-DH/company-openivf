@@ -18,11 +18,7 @@ export default function Contact() {
               </p>
               <p>
                 {" "}
-                <strong>Phone (France):</strong> +33 6 24 33 41 19
-              </p>
-              <p>
-                {" "}
-                <strong>Phone (Germany):</strong> +49 152 2206 1911
+                <strong>Phone (France):</strong> +33 7 49 96 81 75 
               </p>
             </div>{" "}
           </div>
